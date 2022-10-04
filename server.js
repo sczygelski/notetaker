@@ -1,5 +1,6 @@
 const { response } = require('express')
 const express = require('express')
+const res = require('express/lib/response')
 
 const PORT = process.env.PORT || 3001
 const app = express()
